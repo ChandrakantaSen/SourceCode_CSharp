@@ -1,0 +1,5 @@
+D:\Mrinal-IIHT\Property-GetSet\Property-GetSet\obj\Debug\ResolveAssemblyReference.cache
+D:\Mrinal-IIHT\Property-GetSet\Property-GetSet\bin\Debug\Property-GetSet.exe
+D:\Mrinal-IIHT\Property-GetSet\Property-GetSet\bin\Debug\Property-GetSet.pdb
+D:\Mrinal-IIHT\Property-GetSet\Property-GetSet\obj\Debug\Property-GetSet.exe
+D:\Mrinal-IIHT\Property-GetSet\Property-GetSet\obj\Debug\Property-GetSet.pdb
