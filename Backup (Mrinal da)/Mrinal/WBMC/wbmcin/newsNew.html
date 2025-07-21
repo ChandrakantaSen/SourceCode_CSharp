@@ -1,0 +1,103 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0037)http://www.unipune.ernet.in/news.html -->
+<HTML><HEAD>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<SCRIPT type=text/javascript>
+
+/***********************************************
+* IFRAME Scroller script- © Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+//Specify speed of scroll. Larger=faster (ie: 5)
+var scrollspeed=cache=1
+
+//Specify intial delay before scroller starts scrolling (in miliseconds):
+var initialdelay=500
+
+function initializeScroller(){
+dataobj=document.all? document.all.datacontainer : document.getElementById("datacontainer")
+dataobj.style.top="5px"
+setTimeout("getdataheight()", initialdelay)
+}
+
+function getdataheight(){
+thelength=dataobj.offsetHeight
+if (thelength==0)
+setTimeout("getdataheight()",10)
+else
+scrollDiv()
+}
+
+function scrollDiv(){
+dataobj.style.top=parseInt(dataobj.style.top)-scrollspeed+"px"
+if (parseInt(dataobj.style.top)<thelength*(-1))
+dataobj.style.top="5px"
+setTimeout("scrollDiv()",40)
+}
+
+if (window.addEventListener)
+window.addEventListener("load", initializeScroller, false)
+else if (window.attachEvent)
+window.attachEvent("onload", initializeScroller)
+else
+window.onload=initializeScroller
+
+</SCRIPT>
+
+<STYLE>
+.green {
+	COLOR: #cf2754; TEXT-DECORATION: none
+}
+.green {
+	COLOR: #cf2754; TEXT-DECORATION: none
+}
+body {
+	background-color: #AABEF7;
+}
+.style1 {color: #FFFFFF}
+.style2 {	color: #FFFF00;
+	font-weight: bold;
+}
+.style4 {color: #000000}
+.style5 {color: #000033}
+.style7 {color: #FF0000; font-weight: bold; font-style: italic; }
+.style8 {color: #000000; font-weight: bold; }
+</STYLE>
+
+<META content="MSHTML 6.00.2900.2180" name=GENERATOR></HEAD>
+<BODY>
+<DIV id=datacontainer onmouseover=scrollspeed=0 
+style="LEFT: -1px; WIDTH: 209px; POSITION: absolute; TOP: -33px; HEIGHT: 907px" 
+onmouseout=scrollspeed=cache> 
+  <!-- ADD YOUR SCROLLER CONTENT INSIDE HERE -->
+  <TABLE id=AutoNumber1 style="BORDER-COLLAPSE: collapse" borderColor=#111111 cellSpacing=1 width=207 border=0>
+    <!--DWLayoutTable-->
+    <TBODY> 
+    <TR> 
+ 
+      <TD width="203" height="904" align=justify valign="top"> 
+          <P align=left><br>
+          </P>
+          <P align=justify><span class="style7">Notice Published On 20.04.2010</span> <br>
+            <span class="style1"><span class="style4">This  is for information of all concerned doctors registered with West Bengal Medical  Council that Medical Council of India has recently made amendment in the Indian  Medical Council&nbsp; (Professional Conduct,  Etiquette and Ethics Regulations 2002) pertaining to &ldquo;Code of Conduct for  Doctors &amp; Professional Association of Doctors in their relationship with  pharmaceutical &amp; allied health sector industry&rdquo;, which has come into force  from the date of Gazette of India Notification i.e. on 10.12.2009........</span><span class="style8">more</span></span></P>
+          <P align=justify><br>
+            <br>
+            <span class="style7">Notice Published On 01.04.2010</span><br>
+            <span class="style5">THIS  IS FOR INFORMATION OF ALL CONCERNED THAT AS PER DECISION OF THE COUNCIL TAKEN  AT ITS MEETING ON 30TH MARCH 2010 NO FURTHER APPLICATION FOR  UPDATING OF REGISTRATION BE RECEIVED AFTER 31ST MARCH 2010......</span>.<span class="style8"><a href="noticeb.html" target="_self">more</a></span><br>
+            <br>
+            <br>
+            <br>
+            <br>
+          </P>          <P align=justify><span class="style8">DOCTORS' DETAILS UNDER CONSTRUCTION </span><br>
+        </P></TD>
+      </TR>
+    <TR>
+      <TD height="1"></TD>
+    </TR>
+    </TBODY> 
+  </TABLE>
+</DIV>
+<P>&nbsp;</P>
+<P><FONT face=Verdana size=1></FONT>&nbsp;</P></BODY></HTML>

@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "Arrays";
+}
+
+<h2>Arrays</h2>
+
+@{
+    string[] members = { "Bhavana", "Amit", "Vishal", "Sheetal" };
+    int i = Array.IndexOf(members, "Vishal") + 1;
+    int len = members.Length;
+    string x = members[2 - 1];
+}
+<h3>Members</h3>
+@foreach (var person in members)
+{
+    <p>@person</p>
+}
+<p>The number of names in Members are @len</p>
+<p>The person at position 2 is @x</p>
+<p>Vishal is now in position @i</p>
+

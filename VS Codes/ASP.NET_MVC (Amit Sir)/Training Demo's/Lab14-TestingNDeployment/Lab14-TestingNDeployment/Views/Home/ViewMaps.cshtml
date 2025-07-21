@@ -1,0 +1,62 @@
+﻿
+@{
+    ViewBag.Title = "ViewMaps";
+}
+
+<h2>My City Maps</h2>
+@*Drop Down List to select Country*@
+Select map:
+<select onclick="GetMap(value);">
+    <option value="Thane">Thane, India</option>
+    <option value="LasVegas">Las Vegas, NV</option>
+    <option value="NewYork">New York, NY</option>
+    <option value="Paris">Paris, France</option>
+    <option value="Sydney">Sydney, Australia</option>
+</select>
+
+<br />
+<br />
+
+@*Div to display the map*@
+<div id='earthMap' style="position:relative; width:400px; height:400px;">
+</div>
+
+@*script to call the javascript file to integrate google maps*@
+<script charset="UTF-8" type="text/javascript"
+        src="http://dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=6.2&mkt=en-us">
+</script>
+
+
+@*Script to load the map as per the dropdown list*@
+<script type="text/javascript">
+    var map = null;
+    var mapID = '';
+
+    function GetMap(mapID)
+    {
+        switch (mapID)
+        {
+            case 'Thane':
+                map = new VEMap('earthMap');
+                map.LoadMap(new VELatLong(19.2183307, 72.9780897), 10, 'i', true);
+                break;
+            case 'LasVegas':
+                map = new VEMap('earthMap');
+                map.LoadMap(new VELatLong(36.17, -115.14), 10 ,'i' ,true);
+                break;
+            case 'NewYork':
+                map = new VEMap('earthMap');
+                map.LoadMap(new VELatLong(40.7, -74), 10 ,'i' ,true);
+                break;
+            case 'Paris':
+                map = new VEMap('earthMap');
+                map.LoadMap(new VELatLong(48.87, 2.33), 10 ,'i' ,true);
+                break;
+            case 'Sydney':
+                map = new VEMap('earthMap');
+                map.LoadMap(new VELatLong(-33.86, 151.21), 10 ,'i' ,true);
+         }
+    }
+</script>
+
+

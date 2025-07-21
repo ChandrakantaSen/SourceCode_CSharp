@@ -1,0 +1,617 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{041768A3-90D6-4DCB-9342-2470B6B39FC0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Medis.My.MyApplication</StartupObject>
+    <RootNamespace>Medis</RootNamespace>
+    <AssemblyName>Medis</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Medis.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Medis.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Design, Version=12.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\assembly\GAC_MSIL\CrystalDecisions.CrystalReports.Design\12.0.2000.0__692fbea5521e1304\CrystalDecisions.CrystalReports.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=12.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\assembly\GAC_MSIL\CrystalDecisions.CrystalReports.Engine\12.0.2000.0__692fbea5521e1304\CrystalDecisions.CrystalReports.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=12.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\assembly\GAC_MSIL\CrystalDecisions.Shared\12.0.2000.0__692fbea5521e1304\CrystalDecisions.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=12.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\assembly\GAC_MSIL\CrystalDecisions.Windows.Forms\12.0.2000.0__692fbea5521e1304\CrystalDecisions.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="master\AddAgentMaster.Designer.vb">
+      <DependentUpon>AddAgentMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="master\AddAgentMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmemployee.Designer.vb">
+      <DependentUpon>frmemployee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmemployee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm1.Designer.vb">
+      <DependentUpon>LoginForm1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maintenance\userSecurity_FormEvent.Designer.vb">
+      <DependentUpon>userSecurity_FormEvent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Maintenance\userSecurity_FormEvent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maintenance\Usersecurity_FormLevel.Designer.vb">
+      <DependentUpon>Usersecurity_FormLevel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Maintenance\Usersecurity_FormLevel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterForm.Designer.vb">
+      <DependentUpon>MasterForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MasterForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="master\AddArea.Designer.vb">
+      <DependentUpon>AddArea.vb</DependentUpon>
+    </Compile>
+    <Compile Include="master\AddArea.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="master\AddPatientMaster.Designer.vb">
+      <DependentUpon>AddPatientMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="master\AddPatientMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="master\AlergyTestItemMaster.Designer.vb">
+      <DependentUpon>AlergyTestItemMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="master\AlergyTestItemMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="master\EditAgentMaster.Designer.vb">
+      <DependentUpon>EditAgentMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="master\EditAgentMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="master\Form4.Designer.vb">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="master\Form4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="master\frmMedDosType.Designer.vb">
+      <DependentUpon>frmMedDosType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="master\frmMedDosType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="master\frmMedFreqMas.Designer.vb">
+      <DependentUpon>frmMedFreqMas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="master\frmMedFreqMas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="master\frmMedGen.Designer.vb">
+      <DependentUpon>frmMedGen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="master\frmMedGen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="master\frmMedPatMas.Designer.vb">
+      <DependentUpon>frmMedPatMas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="master\frmMedPatMas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="master\frmMedType.Designer.vb">
+      <DependentUpon>frmMedType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="master\frmMedType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="master\frmPhysicianMaster.Designer.vb">
+      <DependentUpon>frmPhysicianMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="master\frmPhysicianMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="master\frmReferenceMaster.Designer.vb">
+      <DependentUpon>frmReferenceMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="master\frmReferenceMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="master\frmRefLab.Designer.vb">
+      <DependentUpon>frmRefLab.vb</DependentUpon>
+    </Compile>
+    <Compile Include="master\frmRefLab.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="master\SearchArea.Designer.vb">
+      <DependentUpon>SearchArea.vb</DependentUpon>
+    </Compile>
+    <Compile Include="master\SearchArea.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="master\searchAgentMaster.Designer.vb">
+      <DependentUpon>searchAgentMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="master\searchAgentMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="master\searchpatient.Designer.vb">
+      <DependentUpon>searchpatient.vb</DependentUpon>
+    </Compile>
+    <Compile Include="master\searchpatient.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIParent1.Designer.vb">
+      <DependentUpon>MDIParent1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MDIParent1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIParent2.Designer.vb">
+      <DependentUpon>MDIParent2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MDIParent2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="medisdataDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>medisdataDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="medisdataDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>medisdataDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="NoAccess.Designer.vb">
+      <DependentUpon>NoAccess.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NoAccess.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Rep_CategorywisePathBillsSummary.Designer.vb">
+      <DependentUpon>Rep_CategorywisePathBillsSummary.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Rep_CategorywisePathBillsSummary.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Rep_CategorywisePathDirBillsSummary.Designer.vb">
+      <DependentUpon>Rep_CategorywisePathDirBillsSummary.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Rep_CategorywisePathDirBillsSummary.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Rep_ItemwiseDirBillsSummary.Designer.vb">
+      <DependentUpon>Rep_ItemwiseDirBillsSummary.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Rep_ItemwiseDirBillsSummary.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Rep_ItemwisePathBillsSummary.Designer.vb">
+      <DependentUpon>Rep_ItemwisePathBillsSummary.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Rep_ItemwisePathBillsSummary.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Rep_ItemwiseRegBillsSummary.Designer.vb">
+      <DependentUpon>Rep_ItemwiseRegBillsSummary.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Rep_ItemwiseRegBillsSummary.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\RptParameter.Designer.vb">
+      <DependentUpon>RptParameter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\RptParameter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\rptView.Designer.vb">
+      <DependentUpon>rptView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TestDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\AATC_REG_CONS.Designer.vb">
+      <DependentUpon>AATC_REG_CONS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\AATC_REG_CONS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\AddGrid.Designer.vb">
+      <DependentUpon>AddGrid.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\AddGrid.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\frmPatientHist.Designer.vb">
+      <DependentUpon>frmPatientHist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\frmPatientHist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\frmPtData.Designer.vb">
+      <DependentUpon>frmPtData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\frmPtData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\F_PtDataPar.Designer.vb">
+      <DependentUpon>F_PtDataPar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\F_PtDataPar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\NCDasDirectBill.Designer.vb">
+      <DependentUpon>NCDasDirectBill.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\NCDasDirectBill.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\NCDasInhouse.Designer.vb">
+      <DependentUpon>NCDasInhouse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\NCDasInhouse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\searchBill.Designer.vb">
+      <DependentUpon>searchBill.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\searchBill.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\searchpatientoutstanding.Designer.vb">
+      <DependentUpon>searchpatientoutstanding.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\searchpatientoutstanding.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\showpendingbills.Designer.vb">
+      <DependentUpon>showpendingbills.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\showpendingbills.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\TestReq.Designer.vb">
+      <DependentUpon>TestReq.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\TestReq.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utility.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="master\AddAgentMaster.resx">
+      <DependentUpon>AddAgentMaster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmemployee.resx">
+      <DependentUpon>frmemployee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm1.resx">
+      <DependentUpon>LoginForm1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maintenance\userSecurity_FormEvent.resx">
+      <DependentUpon>userSecurity_FormEvent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maintenance\Usersecurity_FormLevel.resx">
+      <DependentUpon>Usersecurity_FormLevel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterForm.resx">
+      <DependentUpon>MasterForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="master\AddArea.resx">
+      <DependentUpon>AddArea.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="master\AddPatientMaster.resx">
+      <DependentUpon>AddPatientMaster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="master\AlergyTestItemMaster.resx">
+      <DependentUpon>AlergyTestItemMaster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="master\EditAgentMaster.resx">
+      <DependentUpon>EditAgentMaster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="master\Form4.resx">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="master\frmMedDosType.resx">
+      <DependentUpon>frmMedDosType.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="master\frmMedFreqMas.resx">
+      <DependentUpon>frmMedFreqMas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="master\frmMedGen.resx">
+      <DependentUpon>frmMedGen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="master\frmMedPatMas.resx">
+      <DependentUpon>frmMedPatMas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="master\frmMedType.resx">
+      <DependentUpon>frmMedType.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="master\frmPhysicianMaster.resx">
+      <DependentUpon>frmPhysicianMaster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="master\frmReferenceMaster.resx">
+      <DependentUpon>frmReferenceMaster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="master\frmRefLab.resx">
+      <DependentUpon>frmRefLab.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="master\SearchArea.resx">
+      <DependentUpon>SearchArea.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="master\searchAgentMaster.resx">
+      <DependentUpon>searchAgentMaster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIParent1.resx">
+      <DependentUpon>MDIParent1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIParent2.resx">
+      <DependentUpon>MDIParent2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NoAccess.resx">
+      <DependentUpon>NoAccess.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Rep_CategorywisePathBillsSummary.resx">
+      <DependentUpon>Rep_CategorywisePathBillsSummary.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Rep_CategorywisePathDirBillsSummary.resx">
+      <DependentUpon>Rep_CategorywisePathDirBillsSummary.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Rep_ItemwiseDirBillsSummary.resx">
+      <DependentUpon>Rep_ItemwiseDirBillsSummary.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Rep_ItemwisePathBillsSummary.resx">
+      <DependentUpon>Rep_ItemwisePathBillsSummary.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Rep_ItemwiseRegBillsSummary.resx">
+      <DependentUpon>Rep_ItemwiseRegBillsSummary.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RptParameter.resx">
+      <DependentUpon>RptParameter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\AATC_REG_CONS.resx">
+      <DependentUpon>AATC_REG_CONS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\AddGrid.resx">
+      <DependentUpon>AddGrid.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\frmPatientHist.resx">
+      <DependentUpon>frmPatientHist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\frmPtData.resx">
+      <DependentUpon>frmPtData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\F_PtDataPar.resx">
+      <DependentUpon>F_PtDataPar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\searchBill.resx">
+      <DependentUpon>searchBill.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\searchpatientoutstanding.resx">
+      <DependentUpon>searchpatientoutstanding.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\TestReq.resx">
+      <DependentUpon>TestReq.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="medisdataDataSet.xsc">
+      <DependentUpon>medisdataDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="medisdataDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>medisdataDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="medisdataDataSet.xss">
+      <DependentUpon>medisdataDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="medisdataDataSet1.xsc">
+      <DependentUpon>medisdataDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="medisdataDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>medisdataDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="medisdataDataSet1.xss">
+      <DependentUpon>medisdataDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="TestDataSet.xsc">
+      <DependentUpon>TestDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="TestDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TestDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TestDataSet.xss">
+      <DependentUpon>TestDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\utility\utility.vbproj">
+      <Project>{0571A136-DF2B-49E2-A5B7-C836EAE5D97D}</Project>
+      <Name>utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Report\reportFile\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OpeScreen.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

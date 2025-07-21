@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2F8ABEEF-62AB-4816-9B75-EBF37AFA5436}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FoodJunction</RootNamespace>
+    <AssemblyName>FoodJunction</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="F_Bill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_Bill.Designer.cs">
+      <DependentUpon>F_Bill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_BillOld.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_BillOld.Designer.cs">
+      <DependentUpon>F_BillOld.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_Category.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_Category.Designer.cs">
+      <DependentUpon>F_Category.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_HelpTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_HelpTable.Designer.cs">
+      <DependentUpon>F_HelpTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_ItemMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_ItemMaster.Designer.cs">
+      <DependentUpon>F_ItemMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_Login.Designer.cs">
+      <DependentUpon>F_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_Party.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_Party.Designer.cs">
+      <DependentUpon>F_Party.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_Table.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_Table.Designer.cs">
+      <DependentUpon>F_Table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_TaxMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_TaxMaster.Designer.cs">
+      <DependentUpon>F_TaxMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_Waiter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_Waiter.Designer.cs">
+      <DependentUpon>F_Waiter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Global.cs" />
+    <Compile Include="MDIParent1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIParent1.Designer.cs">
+      <DependentUpon>MDIParent1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchHelp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SearchHelp.Designer.cs">
+      <DependentUpon>SearchHelp.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="F_Bill.resx">
+      <DependentUpon>F_Bill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_BillOld.resx">
+      <DependentUpon>F_BillOld.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_Category.resx">
+      <DependentUpon>F_Category.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_HelpTable.resx">
+      <DependentUpon>F_HelpTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_ItemMaster.resx">
+      <DependentUpon>F_ItemMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_Login.resx">
+      <DependentUpon>F_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_Party.resx">
+      <DependentUpon>F_Party.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_Table.resx">
+      <DependentUpon>F_Table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_TaxMaster.resx">
+      <DependentUpon>F_TaxMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_Waiter.resx">
+      <DependentUpon>F_Waiter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIParent1.resx">
+      <DependentUpon>MDIParent1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SearchHelp.resx">
+      <DependentUpon>SearchHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="FJClass\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+    <None Include="Resources\Apply.bmp" />
+    <None Include="Resources\Database-add.png" />
+    <None Include="Resources\Paper-pencil.png" />
+    <None Include="Resources\lj_user-v2.png" />
+    <None Include="Resources\Packed.png" />
+    <None Include="Resources\Person-group-warning.png" />
+    <None Include="Resources\People.png" />
+    <None Include="Resources\X.png" />
+    <None Include="Resources\resTable.jpg" />
+    <None Include="Resources\User1.ico" />
+    <None Include="Resources\WLM.png" />
+    <None Include="Resources\RocketDock.png" />
+    <None Include="Images\animated-computer-image-0116.gif" />
+    <None Include="Images\home1-514x265.png" />
+    <None Include="Images\noImage.jpg" />
+    <Content Include="Images\opser.jpg" />
+    <None Include="Resources\LogOff.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,26 @@
+﻿@model MyMVC_Project.Models.Member
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Membership</title>
+</head>
+<body>
+    <div> 
+        @(Html.BeginForm("Membership","Home"))
+        {
+            <p>MemberId: @Html.EditorFor(m => m.MemberId)</p>
+            <p>MemberName: @Html.EditorFor(m => m.MemberName)</p>
+            <p>MemberAddress: @Html.EditorFor(m => m.MemberAddress)</p>
+            <p>MemberAge: @Html.EditorFor(m => m.MemberAge)</p>
+            <p><input type="submit" /></p>
+        }
+    </div>
+</body>
+</html>

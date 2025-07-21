@@ -1,0 +1,237 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+
+using System.Data;
+using System.Data.SqlClient;
+using System.Configuration;
+
+
+
+namespace FoodJunction
+{
+    public partial class F_Table : Form
+    {
+        Global sqlConn = new Global();
+        //SqlConnection Conn = new SqlConnection(@"Data Source =localhost;Initial Catalog=FoodJunction;User Id=sa;Password=dasmondal");
+
+        // SqlConnection conn = new SqlConnection(Conn);
+        string sqlDGVList;
+        string mgTabId;
+
+
+        public F_Table()
+        {
+            InitializeComponent();
+        }
+
+        private void F_Table_Load(object sender, EventArgs e)
+        {
+            gdvListShow();
+
+        }
+
+
+     #region GridList
+
+        public void gdvListShow()
+        {
+            sqlConn.MyConnection();
+            sqlDGVList = "SELECT TabId, TabNo, TabNam, Activ  FROM T_Table";
+            SqlDataAdapter adGridData = new SqlDataAdapter(sqlDGVList, sqlConn.sqlCon);
+            DataTable dtGridList = new DataTable();
+            adGridData.Fill(dtGridList);
+            dgvList.AutoGenerateColumns = false;
+            dgvList.DataSource = dtGridList;
+        }
+
+     #endregion
+
+
+     #region Button Add & Update - btnadd
+        private void btnAddSave_Click(object sender, EventArgs e)
+        {
+            if (btnAddSave.Text == "Append")
+            {
+                txtTabNo.Enabled = true;
+                txtDetails.Enabled = true;
+                btnAddSave.Text = "Save";
+                btnUpdate.Text = "Cancel";
+                //btnReset.Visible = false;
+                txtTabNo.Text = null;
+                txtDetails.Text = null;
+                txtTabNo.Focus();
+            }
+            else if (btnAddSave.Text == "Save")
+            {
+                try
+                {
+                    sqlConn.MyConnection();
+                    SqlCommand addTable = new SqlCommand("TableAdd", sqlConn.sqlCon);
+                    addTable.CommandType = CommandType.StoredProcedure;
+                    addTable.Parameters.AddWithValue("@TabNo", txtTabNo.Text.Trim());
+                    addTable.Parameters.AddWithValue("@TabNam", txtDetails.Text.Trim());
+                    addTable.Parameters.AddWithValue("@Active", chkAct.Checked);
+                    sqlConn.sqlCon.Open();
+                    addTable.ExecuteNonQuery();
+                    gdvListShow();
+                    txtTabNo.Text = null;
+                    txtDetails.Text = null;
+                    txtTabNo.Focus();
+                }
+                catch (SqlException ex)
+                {
+                    MessageBox.Show("Problem on Add: ", ex.Message);
+                }
+
+                finally
+                {
+                    if (sqlConn.sqlCon.State == ConnectionState.Open)
+                    {
+                        sqlConn.sqlCon.Close();
+
+                    }
+
+                }
+            }
+            else if (btnAddSave.Text == "Update")
+            {
+                try
+                {
+                    sqlConn.MyConnection();
+                    SqlCommand editTable = new SqlCommand("TableEdit", sqlConn.sqlCon);
+                    editTable.CommandType = CommandType.StoredProcedure;
+                    editTable.Parameters.AddWithValue("@TabId", mgTabId);
+                    editTable.Parameters.AddWithValue("@TabNo", txtTabNo.Text.Trim());
+                    editTable.Parameters.AddWithValue("@TabNam", txtDetails.Text.Trim());
+                    editTable.Parameters.AddWithValue("@Active", chkAct.Checked);
+                    sqlConn.sqlCon.Open();
+                    editTable.ExecuteNonQuery();
+                    gdvListShow();
+                    txtTabNo.Enabled = false;
+                    txtDetails.Enabled = false;
+                    btnAddSave.Text = "Append";
+                    btnUpdate.Text = "Exit";
+                    btnReset.Visible = false;
+                    txtTabNo.Text = null;
+                    txtDetails.Text = null;
+                }
+                catch (SqlException ex)
+                {
+                    MessageBox.Show("Problem on Update: ", ex.Message);
+                }
+
+                finally
+                {
+                    if (sqlConn.sqlCon.State == ConnectionState.Open)
+                    {
+                        sqlConn.sqlCon.Close();
+
+                    }
+
+                }
+
+            }
+
+
+
+        }
+
+        #endregion
+
+   
+
+     #region Button - btnUpdate
+
+     private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            if (btnUpdate.Text == "Cancel")
+            {
+                txtTabNo.Enabled = false;
+                txtDetails.Enabled = false;
+                btnAddSave.Text = "Append";
+                btnUpdate.Text = "Exit";
+                btnReset.Visible = false;
+                txtTabNo.Text = null;
+                txtDetails.Text = null;
+            }
+            else if (btnUpdate.Text == "Exit")
+            {
+                this.Close();
+            }
+        }
+
+     #endregion
+
+     #region  Button Delete - btnReset
+
+     private void btnReset_Click(object sender, EventArgs e)
+     {
+         if (btnAddSave.Text == "Update")
+         {
+             try
+             {
+                 sqlConn.MyConnection();
+                 SqlCommand editTable = new SqlCommand("TableDel", sqlConn.sqlCon);
+                 editTable.CommandType = CommandType.StoredProcedure;
+                 editTable.Parameters.AddWithValue("@TabId", mgTabId);
+                 sqlConn.sqlCon.Open();
+                 editTable.ExecuteNonQuery();
+                 gdvListShow();
+                 txtTabNo.Enabled = false;
+                 txtDetails.Enabled = false;
+                 btnAddSave.Text = "Append";
+                 btnUpdate.Text = "Exit";
+                 btnReset.Visible = false;
+                 txtTabNo.Text = null;
+                 txtDetails.Text = null;
+             }
+             catch (SqlException ex)
+             {
+                 MessageBox.Show("Problem on Update: ", ex.Message);
+             }
+
+             finally
+             {
+                 if (sqlConn.sqlCon.State == ConnectionState.Open)
+                 {
+                     sqlConn.sqlCon.Close();
+
+                 }
+
+             }
+
+         }
+     }
+     #endregion
+
+     private void dgvList_DoubleClick(object sender, EventArgs e)
+     {
+         txtTabNo.Enabled = true;
+         txtDetails.Enabled = true;
+         btnAddSave.Text = "Update";
+         btnUpdate.Text = "Cancel";
+         btnReset.Visible = true;
+
+         
+         mgTabId = dgvList.Rows[dgvList.CurrentRow.Index].Cells["TabId"].Value.ToString();
+         txtTabNo.Text = dgvList.Rows[dgvList.CurrentRow.Index].Cells["TabNo"].Value.ToString();
+         txtDetails.Text = dgvList.Rows[dgvList.CurrentRow.Index].Cells["TabNam"].Value.ToString();
+         bool chkActive  = (bool)dgvList.Rows[dgvList.CurrentRow.Index].Cells["Activ"].Value;
+         if (chkActive == true)
+         {
+                chkAct.Checked=true;
+         }
+         else
+         {
+             chkAct.Checked = false; 
+         }
+     }
+
+
+    }
+}

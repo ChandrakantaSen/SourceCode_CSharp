@@ -1,0 +1,15 @@
+C:\Users\Chandra\Documents\Visual Studio 2008\Projects\MDI_Example\MDI_Example\bin\Debug\MDI_Example.exe
+C:\Users\Chandra\Documents\Visual Studio 2008\Projects\MDI_Example\MDI_Example\bin\Debug\MDI_Example.pdb
+C:\Users\Chandra\Documents\Visual Studio 2008\Projects\MDI_Example\MDI_Example\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Chandra\Documents\Visual Studio 2008\Projects\MDI_Example\MDI_Example\obj\Debug\MDI_Example.Form1.resources
+C:\Users\Chandra\Documents\Visual Studio 2008\Projects\MDI_Example\MDI_Example\obj\Debug\MDI_Example.Properties.Resources.resources
+C:\Users\Chandra\Documents\Visual Studio 2008\Projects\MDI_Example\MDI_Example\obj\Debug\MDI_Example.csproj.GenerateResource.Cache
+C:\Users\Chandra\Documents\Visual Studio 2008\Projects\MDI_Example\MDI_Example\obj\Debug\MDI_Example.exe
+C:\Users\Chandra\Documents\Visual Studio 2008\Projects\MDI_Example\MDI_Example\obj\Debug\MDI_Example.pdb
+G:\My WorkSpace\Source_Code (C#)\VS_GUIApplication\MDI_Example\MDI_Example\obj\Debug\MDI_Example.exe
+G:\My WorkSpace\Source_Code (C#)\VS_GUIApplication\MDI_Example\MDI_Example\obj\Debug\MDI_Example.pdb
+G:\My WorkSpace\Source_Code (C#)\VS_GUIApplication\MDI_Example\MDI_Example\bin\Debug\MDI_Example.exe
+G:\My WorkSpace\Source_Code (C#)\VS_GUIApplication\MDI_Example\MDI_Example\bin\Debug\MDI_Example.pdb
+G:\My WorkSpace\Source_Code (C#)\VS_GUIApplication\MDI_Example\MDI_Example\obj\Debug\MDI_Example.Form1.resources
+G:\My WorkSpace\Source_Code (C#)\VS_GUIApplication\MDI_Example\MDI_Example\obj\Debug\MDI_Example.Properties.Resources.resources
+G:\My WorkSpace\Source_Code (C#)\VS_GUIApplication\MDI_Example\MDI_Example\obj\Debug\MDI_Example.csproj.GenerateResource.Cache

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/image/0.jpeg</ImageUrl>
+    <NavigateUrl>http://www.google.co.in</NavigateUrl>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/image/1.jpg</ImageUrl>
+    <NavigateUrl>http://www.google.co.in/software.aspx</NavigateUrl>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/image/2.jpg</ImageUrl>
+    <NavigateUrl>http://www.google.co.in/hardware.aspx</NavigateUrl>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/image/3.jpg</ImageUrl>
+    <NavigateUrl>http://www.google.co.in/multimedia.aspx</NavigateUrl>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/image/4.jpg</ImageUrl>
+    <NavigateUrl>http://www.google.co.in/networking.aspx</NavigateUrl>
+  </Ad>
+</Advertisements>

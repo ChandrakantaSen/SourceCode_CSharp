@@ -1,0 +1,10 @@
+﻿
+Home->Index-> OnActionExecuting 	-4/15/2016 12:33:31 AM
+Home->Index-> OnActionExecuted 	-4/15/2016 12:33:31 AM
+Home->Index-> OnResultExecuting 	-4/15/2016 12:33:31 AM
+Home->Index-> OnResultExecuted 	-4/15/2016 12:33:31 AM
+---------------------------------------------------
+Home->Welcome-> OnActionExecuting 	-4/15/2016 12:34:25 AM
+Home->Welcome-> OnActionExecuted 	-4/15/2016 12:35:22 AM
+Home->Welcome-> Exception occured 	-4/15/2016 12:35:22 AM
+---------------------------------------------------

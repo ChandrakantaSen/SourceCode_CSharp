@@ -1,0 +1,18 @@
+------ Build started: Project: Aplicatie, Configuration: Debug .NET ------
+
+Preparing resources...
+Updating references...
+Performing main compilation...
+d:\sorina\varsorina\aplicatie\comenzi.cs(921,12): warning CS0219: The variable 'aux' is assigned but its value is never used
+d:\sorina\varsorina\aplicatie\cautari.cs(36,43): warning CS0169: The private field 'Aplicatie.Cautari.components' is never used
+
+Build complete -- 0 errors, 2 warnings
+Building satellite assemblies...
+
+
+
+---------------------- Done ----------------------
+
+    Build: 1 succeeded, 0 failed, 0 skipped
+
+

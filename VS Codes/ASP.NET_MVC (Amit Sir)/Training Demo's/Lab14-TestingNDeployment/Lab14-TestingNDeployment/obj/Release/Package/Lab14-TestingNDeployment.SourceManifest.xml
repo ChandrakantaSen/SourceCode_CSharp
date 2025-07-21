@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="D:\Sneha\Train The Trainer (T3)\MVC5\Training Demo's\Lab14-TestingNDeployment\Lab14-TestingNDeployment\obj\Release\Package\PackageTmp" managedRuntimeVersion="v4.0" />
+  <setAcl path="D:\Sneha\Train The Trainer (T3)\MVC5\Training Demo's\Lab14-TestingNDeployment\Lab14-TestingNDeployment\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="D:\Sneha\Train The Trainer (T3)\MVC5\Training Demo's\Lab14-TestingNDeployment\Lab14-TestingNDeployment\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+</sitemanifest>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Default Web Site/Intern" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\Sneha\\Train\ The\ Trainer\ \(T3\)\\MVC5\\Training\ Demo's\\Lab11-Internationalization\\Lab11-Internationalization\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^D:\\Sneha\\Train\ The\ Trainer\ \(T3\)\\MVC5\\Training\ Demo's\\Lab11-Internationalization\\Lab11-Internationalization\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-Lab11-Internationalization-20160403121224.mdf;Initial Catalog=aspnet-Lab11-Internationalization-20160403121224;Integrated Security=True" tags="">
+    <parameterEntry kind="XmlFile" scope="D:\\Sneha\\Train\ The\ Trainer\ \(T3\)\\MVC5\\Training\ Demo's\\Lab11-Internationalization\\Lab11-Internationalization\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>

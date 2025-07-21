@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "ifStatement";
+}
+
+<h2>ifStatement</h2>
+
+@{
+    var @txt = ""; 
+    if (DateTime.Now.Hour > 12) 
+        @txt = "Good Evening";  
+    else 
+        @txt = "Good Morning"; 
+}
+<html>
+<body>
+    <p>The message is @txt</p>
+</body>
+</html>

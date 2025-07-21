@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace RecapsulationCodes.Operators
+{
+    class Booleans
+    {
+        public static void Main()
+        {
+            bool content = true;
+            bool noContent = false;
+
+            Console.WriteLine("It is {0} that C# Stationprovides C# programming language content.", content);
+            Console.WriteLine("The statement above is not {0}.", noContent);
+            Console.ReadKey(true);
+        }
+    }
+}

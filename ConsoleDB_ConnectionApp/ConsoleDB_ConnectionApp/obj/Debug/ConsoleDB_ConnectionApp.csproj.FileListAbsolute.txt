@@ -1,0 +1,7 @@
+C:\Users\user\source\repos\ConsoleDB_ConnectionApp\ConsoleDB_ConnectionApp\bin\Debug\ConsoleDB_ConnectionApp.exe.config
+C:\Users\user\source\repos\ConsoleDB_ConnectionApp\ConsoleDB_ConnectionApp\bin\Debug\ConsoleDB_ConnectionApp.exe
+C:\Users\user\source\repos\ConsoleDB_ConnectionApp\ConsoleDB_ConnectionApp\bin\Debug\ConsoleDB_ConnectionApp.pdb
+C:\Users\user\source\repos\ConsoleDB_ConnectionApp\ConsoleDB_ConnectionApp\obj\Debug\ConsoleDB_ConnectionApp.csprojAssemblyReference.cache
+C:\Users\user\source\repos\ConsoleDB_ConnectionApp\ConsoleDB_ConnectionApp\obj\Debug\ConsoleDB_ConnectionApp.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\ConsoleDB_ConnectionApp\ConsoleDB_ConnectionApp\obj\Debug\ConsoleDB_ConnectionApp.exe
+C:\Users\user\source\repos\ConsoleDB_ConnectionApp\ConsoleDB_ConnectionApp\obj\Debug\ConsoleDB_ConnectionApp.pdb

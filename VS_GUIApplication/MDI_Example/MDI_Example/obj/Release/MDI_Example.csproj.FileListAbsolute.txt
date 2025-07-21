@@ -1,0 +1,8 @@
+C:\Users\Chandra\Documents\Visual Studio 2008\Projects\MDI_Example\MDI_Example\bin\Release\MDI_Example.exe
+C:\Users\Chandra\Documents\Visual Studio 2008\Projects\MDI_Example\MDI_Example\bin\Release\MDI_Example.pdb
+C:\Users\Chandra\Documents\Visual Studio 2008\Projects\MDI_Example\MDI_Example\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Chandra\Documents\Visual Studio 2008\Projects\MDI_Example\MDI_Example\obj\Release\MDI_Example.Form1.resources
+C:\Users\Chandra\Documents\Visual Studio 2008\Projects\MDI_Example\MDI_Example\obj\Release\MDI_Example.Properties.Resources.resources
+C:\Users\Chandra\Documents\Visual Studio 2008\Projects\MDI_Example\MDI_Example\obj\Release\MDI_Example.csproj.GenerateResource.Cache
+C:\Users\Chandra\Documents\Visual Studio 2008\Projects\MDI_Example\MDI_Example\obj\Release\MDI_Example.exe
+C:\Users\Chandra\Documents\Visual Studio 2008\Projects\MDI_Example\MDI_Example\obj\Release\MDI_Example.pdb

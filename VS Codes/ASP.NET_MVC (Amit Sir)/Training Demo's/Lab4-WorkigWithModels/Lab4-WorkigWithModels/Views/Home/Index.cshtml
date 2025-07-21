@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <table cellpadding="10" cellspacing="10" width="100%">
+        <tr>
+            <td> <img src="~/Images/aptech_logo.gif" height="100" width="200" /></td>
+            <td><h1>Aptech Computer Education</h1></td>
+        </tr>
+    </table>
+    <br />
+    <p class="lead">Aptech invites to Attend ASP.NET MVC Training. Limited seats available, Hurry...</p>
+    <p><a href="/Home/RegisterNow" class="btn btn-primary btn-lg">Get Invitation</a></p>
+    @Html.ActionLink("Register Now", "RegisterNow", "Home", null, new { @class = "btn btn-primary btn-lg" })
+    
+</div>
+
+
+
+
+
+

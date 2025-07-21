@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "wbmcin", ".", "{3F1D9FB2-2356-4D22-8048-571D00BA0094}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/wbmcin"
+		Debug.AspNetCompiler.PhysicalPath = "D:\accounts\wbmcin\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\wbmcin\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/wbmcin"
+		Release.AspNetCompiler.PhysicalPath = "D:\accounts\wbmcin\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\wbmcin\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1035"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F1D9FB2-2356-4D22-8048-571D00BA0094}.Debug|.NET.ActiveCfg = Debug|.NET
+		{3F1D9FB2-2356-4D22-8048-571D00BA0094}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Aplicatie">
+</Property><Property Name="Solution File" Value="D:\aplicatia\aplicatia\Aplicatie.sln">
+</Property><Property Name="User Options File" Value="D:\aplicatia\aplicatia\Aplicatie.suo">
+</Property><Property Name="Date" Value="16 martie 2008">
+</Property><Property Name="Time" Value="13:32">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Aplicatie.sln" Description="File successfully backed up as D:\aplicatia\aplicatia\Backup\Aplicatie.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Aplicatie.suo" Description="File successfully backed up as D:\aplicatia\aplicatia\Backup\Aplicatie.suo">
+</Event><Event ErrorLevel="0" Project="Aplicatie" Source="Aplicatie.csproj" Description="Project file successfully backed up as D:\aplicatia\aplicatia\Backup\Aplicatie.csproj">
+</Event><Event ErrorLevel="0" Project="Aplicatie" Source="Aplicatie.csproj.user" Description="Project user file successfully backed up as D:\aplicatia\aplicatia\Backup\Aplicatie.csproj.user">
+</Event><Event ErrorLevel="0" Project="Aplicatie" Source="AssemblyInfo.cs" Description="File successfully backed up as D:\aplicatia\aplicatia\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Aplicatie" Source="Cautari.cs" Description="File successfully backed up as D:\aplicatia\aplicatia\Backup\Cautari.cs">
+</Event><Event ErrorLevel="0" Project="Aplicatie" Source="Colaboratori.cs" Description="File successfully backed up as D:\aplicatia\aplicatia\Backup\Colaboratori.cs">
+</Event><Event ErrorLevel="0" Project="Aplicatie" Source="Comenzi.cs" Description="File successfully backed up as D:\aplicatia\aplicatia\Backup\Comenzi.cs">
+</Event><Event ErrorLevel="0" Project="Aplicatie" Source="Intrari.cs" Description="File successfully backed up as D:\aplicatia\aplicatia\Backup\Intrari.cs">
+</Event><Event ErrorLevel="0" Project="Aplicatie" Source="Main.cs" Description="File successfully backed up as D:\aplicatia\aplicatia\Backup\Main.cs">
+</Event><Event ErrorLevel="0" Project="Aplicatie" Source="Produse.cs" Description="File successfully backed up as D:\aplicatia\aplicatia\Backup\Produse.cs">
+</Event><Event ErrorLevel="0" Project="Aplicatie" Source="App.ico" Description="File successfully backed up as D:\aplicatia\aplicatia\Backup\App.ico">
+</Event><Event ErrorLevel="0" Project="Aplicatie" Source="Cautari.resx" Description="File successfully backed up as D:\aplicatia\aplicatia\Backup\Cautari.resx">
+</Event><Event ErrorLevel="0" Project="Aplicatie" Source="Colaboratori.resx" Description="File successfully backed up as D:\aplicatia\aplicatia\Backup\Colaboratori.resx">
+</Event><Event ErrorLevel="0" Project="Aplicatie" Source="Comenzi.resx" Description="File successfully backed up as D:\aplicatia\aplicatia\Backup\Comenzi.resx">
+</Event><Event ErrorLevel="0" Project="Aplicatie" Source="Intrari.resx" Description="File successfully backed up as D:\aplicatia\aplicatia\Backup\Intrari.resx">
+</Event><Event ErrorLevel="0" Project="Aplicatie" Source="Main.resx" Description="File successfully backed up as D:\aplicatia\aplicatia\Backup\Main.resx">
+</Event><Event ErrorLevel="0" Project="Aplicatie" Source="Produse.resx" Description="File successfully backed up as D:\aplicatia\aplicatia\Backup\Produse.resx">
+</Event><Event ErrorLevel="0" Project="Aplicatie" Source="Aplicatie.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Aplicatie" Source="Aplicatie.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Aplicatie.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Aplicatie.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Aplicatie" Source="Aplicatie.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

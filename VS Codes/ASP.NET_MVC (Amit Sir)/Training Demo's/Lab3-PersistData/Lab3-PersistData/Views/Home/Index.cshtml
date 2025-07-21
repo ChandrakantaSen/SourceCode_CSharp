@@ -1,0 +1,36 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        <h2>Home Controller</h2>
+        <h2>@DateTime.Now</h2>
+        <hr />
+        <p>
+            TempData = @TempData["FortheFullRequest"]
+            <br />
+            Session = @Session["Session1"]
+            <br />
+            ViewData = @ViewData["MyData"]
+            <br/>
+            ViewBag = @ViewBag.MyBag
+            <br/>
+            ViewData Newval = @ViewData["newviewdata"] 
+            <br />
+            ViewBag NewVal = @ViewBag.newviewbag
+            <br />
+            <a href="/Home/Index"> Click Here for a new Request</a>
+        </p>
+        
+    </div>
+</body>
+</html>

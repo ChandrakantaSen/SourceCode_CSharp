@@ -1,0 +1,5 @@
+C:\Users\user\Documents\SharpDevelop Projects\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.exe
+C:\Users\user\Documents\SharpDevelop Projects\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.pdb
+C:\Users\user\Documents\SharpDevelop Projects\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\SharpDevelop Projects\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.exe
+C:\Users\user\Documents\SharpDevelop Projects\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.pdb

@@ -1,0 +1,8 @@
+C:\Users\Chandra\Documents\Visual Studio 2008\Projects\DBCon-Winforms\DBCon-Winforms\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Chandra\Documents\Visual Studio 2008\Projects\DBCon-Winforms\DBCon-Winforms\obj\Debug\DBCon_Winforms.Form1.resources
+C:\Users\Chandra\Documents\Visual Studio 2008\Projects\DBCon-Winforms\DBCon-Winforms\obj\Debug\DBCon_Winforms.Properties.Resources.resources
+C:\Users\Chandra\Documents\Visual Studio 2008\Projects\DBCon-Winforms\DBCon-Winforms\obj\Debug\DBCon-Winforms.csproj.GenerateResource.Cache
+C:\Users\Chandra\Documents\Visual Studio 2008\Projects\DBCon-Winforms\DBCon-Winforms\bin\Debug\DBCon-Winforms.exe
+C:\Users\Chandra\Documents\Visual Studio 2008\Projects\DBCon-Winforms\DBCon-Winforms\bin\Debug\DBCon-Winforms.pdb
+C:\Users\Chandra\Documents\Visual Studio 2008\Projects\DBCon-Winforms\DBCon-Winforms\obj\Debug\DBCon-Winforms.exe
+C:\Users\Chandra\Documents\Visual Studio 2008\Projects\DBCon-Winforms\DBCon-Winforms\obj\Debug\DBCon-Winforms.pdb

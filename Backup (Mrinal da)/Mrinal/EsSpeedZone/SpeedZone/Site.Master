@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="SpeedZone.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title>Speed Zone : Car Service Management System</title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            color: #FFFFFF;
+        }
+    </style>
+</head>
+<body>
+    <form runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1>
+                    Speed Zone : Car Servic Management System
+                </h1>
+            </div>
+            <div class="loginDisplay">
+
+                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                    <AnonymousTemplate>
+                        [ <a href="~/Loginpage.aspx" ID="HeadLoginStatus" runat="server">Log In</a> ]
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        Welcome <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
+                        [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out" LogoutPageUrl="~/"/> ]
+                    </LoggedInTemplate>
+                </asp:LoginView>
+            </div>
+            <div class="clear hideSkiplink">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem Text="Master" Value="Master">
+                            <asp:MenuItem Text="Make" Value="Make" NavigateUrl="~/MakeMaster.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Model" Value="Model" NavigateUrl="~/ModelMaster.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Technician" Value="Technician"></asp:MenuItem>
+                            <asp:MenuItem Text="Spear Materials" Value="Materials"></asp:MenuItem>
+                            <asp:MenuItem Text="Service Item" Value="Service" 
+                                NavigateUrl="~/ServiceItem.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="----------------------" Value="----------------------">
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="Customer" Value="Customer" 
+                                NavigateUrl="~/CustomerMaster.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Club" Value="Club"></asp:MenuItem>
+                            <asp:MenuItem Text="Vendors" Value="Vendors"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Transaction" Value="Transaction">
+                            <asp:MenuItem Text="Purchase" Value="Purchase"></asp:MenuItem>
+                            <asp:MenuItem Text="Job" Value="Job"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Report" Value="Report">
+                            <asp:MenuItem Text="Customer Registrar" Value="CustReg"></asp:MenuItem>
+                            <asp:MenuItem Text="Bill Registrar" Value="BillReg"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Administrator" Value="Administrator">
+                            <asp:MenuItem Text="Home Page" Value="Home Page"></asp:MenuItem>
+                            <asp:MenuItem Text="User Master" Value="User Master"></asp:MenuItem>
+                        </asp:MenuItem>
+                    </Items>
+                </asp:Menu>
+            </div>
+        </div>
+        <div class="main">
+            <table width =100%>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+            </table>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        
+    </div>
+    </form>
+</body>
+</html>

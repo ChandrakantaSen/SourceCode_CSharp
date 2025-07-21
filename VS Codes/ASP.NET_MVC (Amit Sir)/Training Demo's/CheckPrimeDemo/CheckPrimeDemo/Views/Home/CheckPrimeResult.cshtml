@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "CheckPrimeResult";
+}
+
+<h2>CheckPrimeResult</h2>
+@{
+    var ctr = 0;
+    for (var i = 1; i <= ViewBag.num; i++)
+    {
+        if (ViewBag.num % i == 0)
+        { 
+            ctr++;
+        }
+    }
+    if(ctr>2)
+    {
+        @: @ViewBag.num is not a Prime Number
+    }
+    else
+    { 
+        @: @ViewBag.num is a Prime Number
+    }
+}
+

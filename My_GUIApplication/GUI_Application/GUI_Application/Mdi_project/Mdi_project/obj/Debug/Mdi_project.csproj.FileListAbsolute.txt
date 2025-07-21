@@ -1,0 +1,11 @@
+c:\users\chandrakanta\documents\visual studio 2015\Projects\Mdi_project\Mdi_project\bin\Debug\Mdi_project.exe.config
+c:\users\chandrakanta\documents\visual studio 2015\Projects\Mdi_project\Mdi_project\bin\Debug\Mdi_project.exe
+c:\users\chandrakanta\documents\visual studio 2015\Projects\Mdi_project\Mdi_project\bin\Debug\Mdi_project.pdb
+c:\users\chandrakanta\documents\visual studio 2015\Projects\Mdi_project\Mdi_project\obj\Debug\Mdi_project.csprojResolveAssemblyReference.cache
+c:\users\chandrakanta\documents\visual studio 2015\Projects\Mdi_project\Mdi_project\obj\Debug\Mdi_project.deposit.resources
+c:\users\chandrakanta\documents\visual studio 2015\Projects\Mdi_project\Mdi_project\obj\Debug\Mdi_project.Form1.resources
+c:\users\chandrakanta\documents\visual studio 2015\Projects\Mdi_project\Mdi_project\obj\Debug\Mdi_project.Properties.Resources.resources
+c:\users\chandrakanta\documents\visual studio 2015\Projects\Mdi_project\Mdi_project\obj\Debug\Mdi_project.withdrawl.resources
+c:\users\chandrakanta\documents\visual studio 2015\Projects\Mdi_project\Mdi_project\obj\Debug\Mdi_project.csproj.GenerateResource.Cache
+c:\users\chandrakanta\documents\visual studio 2015\Projects\Mdi_project\Mdi_project\obj\Debug\Mdi_project.exe
+c:\users\chandrakanta\documents\visual studio 2015\Projects\Mdi_project\Mdi_project\obj\Debug\Mdi_project.pdb

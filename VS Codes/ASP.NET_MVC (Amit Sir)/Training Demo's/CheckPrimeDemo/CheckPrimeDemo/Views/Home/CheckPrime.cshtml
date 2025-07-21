@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "CheckPrime";
+}
+
+<h2>CheckPrime</h2>
+@using(Html.BeginForm())
+{
+    <table>
+        <tr>
+            <td>Enter a Number : </td>
+            <td>
+                @Html.TextBox("number")
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="submit" value="Check Prime" />
+            </td>
+        </tr>
+    </table>   
+}
+

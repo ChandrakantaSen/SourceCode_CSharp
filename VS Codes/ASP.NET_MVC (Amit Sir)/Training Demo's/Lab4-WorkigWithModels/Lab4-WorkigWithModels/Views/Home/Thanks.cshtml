@@ -1,0 +1,38 @@
+﻿@model Lab4_WorkigWithModels.Models.GuestResponse
+@{
+    ViewBag.Title = "Thanks";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Thanks</h2>
+@{
+    try
+    {
+        WebMail.SmtpServer = "smtp.gmail.com";
+        WebMail.SmtpPort = 587;
+        WebMail.EnableSsl = true;
+        WebMail.UserName = "snehasitsource@gmail.com";
+        WebMail.Password = "Sneha@1234";
+        WebMail.From = "snehasitsource@gmail.com";
+        WebMail.Send(Model.EmailId, "Training Response", Model.Name + 
+            " is " + ((Model.willAttend ?? false) ? "" : "not") + " attending.");
+    }
+    catch(Exception ex)
+    {
+        @: <b>Sorry couldn't send confirmation email.</b>
+        @: @ex.Message @ex.StackTrace
+    }
+    <h1>Thank you @Model.Name!</h1>
+    if (Model.willAttend == true)
+    {
+        @:Its great that you are coming.
+    }
+    else if (Model.willAttend == false)
+    {
+        @:Sorry to hear that you can't make it, but thanks for letting us know.
+    }
+    else
+    {
+        @:No response
+    }
+}
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Aplicatie">
+</Property><Property Name="Solution File" Value="E:\Csie-an3.sem2\sem2\5. PAW - C#\Proiecte\aplicatia\Aplicatie.sln">
+</Property><Property Name="User Options File" Value="E:\Csie-an3.sem2\sem2\5. PAW - C#\Proiecte\aplicatia\Aplicatie.suo">
+</Property><Property Name="Date" Value="Friday, June 29, 2012">
+</Property><Property Name="Time" Value="22:24 PM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Aplicatie.sln" Description="File successfully backed up as E:\Csie-an3.sem2\sem2\5. PAW - C#\Proiecte\aplicatia\Backup1\Aplicatie.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Aplicatie.suo" Description="File successfully backed up as E:\Csie-an3.sem2\sem2\5. PAW - C#\Proiecte\aplicatia\Backup1\Aplicatie.suo">
+</Event><Event ErrorLevel="0" Project="Aplicatie" Source="Aplicatie.csproj" Description="Project file successfully backed up as E:\Csie-an3.sem2\sem2\5. PAW - C#\Proiecte\aplicatia\Backup1\Aplicatie.csproj">
+</Event><Event ErrorLevel="0" Project="Aplicatie" Source="Aplicatie.csproj.user" Description="Project user file successfully backed up as E:\Csie-an3.sem2\sem2\5. PAW - C#\Proiecte\aplicatia\Backup1\Aplicatie.csproj.user">
+</Event><Event ErrorLevel="0" Project="Aplicatie" Source="AssemblyInfo.cs" Description="File successfully backed up as E:\Csie-an3.sem2\sem2\5. PAW - C#\Proiecte\aplicatia\Backup1\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Aplicatie" Source="Cautari.cs" Description="File successfully backed up as E:\Csie-an3.sem2\sem2\5. PAW - C#\Proiecte\aplicatia\Backup1\Cautari.cs">
+</Event><Event ErrorLevel="0" Project="Aplicatie" Source="Colaboratori.cs" Description="File successfully backed up as E:\Csie-an3.sem2\sem2\5. PAW - C#\Proiecte\aplicatia\Backup1\Colaboratori.cs">
+</Event><Event ErrorLevel="0" Project="Aplicatie" Source="Comenzi.cs" Description="File successfully backed up as E:\Csie-an3.sem2\sem2\5. PAW - C#\Proiecte\aplicatia\Backup1\Comenzi.cs">
+</Event><Event ErrorLevel="0" Project="Aplicatie" Source="Intrari.cs" Description="File successfully backed up as E:\Csie-an3.sem2\sem2\5. PAW - C#\Proiecte\aplicatia\Backup1\Intrari.cs">
+</Event><Event ErrorLevel="0" Project="Aplicatie" Source="Main.cs" Description="File successfully backed up as E:\Csie-an3.sem2\sem2\5. PAW - C#\Proiecte\aplicatia\Backup1\Main.cs">
+</Event><Event ErrorLevel="0" Project="Aplicatie" Source="Produse.cs" Description="File successfully backed up as E:\Csie-an3.sem2\sem2\5. PAW - C#\Proiecte\aplicatia\Backup1\Produse.cs">
+</Event><Event ErrorLevel="0" Project="Aplicatie" Source="App.ico" Description="File successfully backed up as E:\Csie-an3.sem2\sem2\5. PAW - C#\Proiecte\aplicatia\Backup1\App.ico">
+</Event><Event ErrorLevel="0" Project="Aplicatie" Source="Cautari.resx" Description="File successfully backed up as E:\Csie-an3.sem2\sem2\5. PAW - C#\Proiecte\aplicatia\Backup1\Cautari.resx">
+</Event><Event ErrorLevel="0" Project="Aplicatie" Source="Colaboratori.resx" Description="File successfully backed up as E:\Csie-an3.sem2\sem2\5. PAW - C#\Proiecte\aplicatia\Backup1\Colaboratori.resx">
+</Event><Event ErrorLevel="0" Project="Aplicatie" Source="Comenzi.resx" Description="File successfully backed up as E:\Csie-an3.sem2\sem2\5. PAW - C#\Proiecte\aplicatia\Backup1\Comenzi.resx">
+</Event><Event ErrorLevel="0" Project="Aplicatie" Source="Intrari.resx" Description="File successfully backed up as E:\Csie-an3.sem2\sem2\5. PAW - C#\Proiecte\aplicatia\Backup1\Intrari.resx">
+</Event><Event ErrorLevel="0" Project="Aplicatie" Source="Main.resx" Description="File successfully backed up as E:\Csie-an3.sem2\sem2\5. PAW - C#\Proiecte\aplicatia\Backup1\Main.resx">
+</Event><Event ErrorLevel="0" Project="Aplicatie" Source="Produse.resx" Description="File successfully backed up as E:\Csie-an3.sem2\sem2\5. PAW - C#\Proiecte\aplicatia\Backup1\Produse.resx">
+</Event><Event ErrorLevel="1" Project="Aplicatie" Source="Aplicatie.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="Aplicatie" Source="Aplicatie.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Aplicatie" Source="Aplicatie.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Aplicatie.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Aplicatie.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Aplicatie" Source="Aplicatie.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

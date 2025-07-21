@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="MDI_Example">
+</Property><Property Name="Solution File" Value="G:\My WorkSpace\Source_Code (C#)\VS_GUIApplication\MDI_Example\MDI_Example.sln">
+</Property><Property Name="User Options File" Value="G:\My WorkSpace\Source_Code (C#)\VS_GUIApplication\MDI_Example\MDI_Example.suo">
+</Property><Property Name="Date" Value="17 June 2018">
+</Property><Property Name="Time" Value="12:20 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="MDI_Example.sln" Description="File successfully backed up as G:\My WorkSpace\Source_Code (C#)\VS_GUIApplication\MDI_Example\Backup\MDI_Example.sln">
+</Event><Event ErrorLevel="0" Project="" Source="MDI_Example.suo" Description="File successfully backed up as G:\My WorkSpace\Source_Code (C#)\VS_GUIApplication\MDI_Example\Backup\MDI_Example.suo">
+</Event><Event ErrorLevel="0" Project="MDI_Example" Source="MDI_Example\MDI_Example.csproj" Description="Project file successfully backed up as G:\My WorkSpace\Source_Code (C#)\VS_GUIApplication\MDI_Example\Backup\MDI_Example\MDI_Example.csproj">
+</Event><Event ErrorLevel="0" Project="MDI_Example" Source="MDI_Example\MDI_Example.csproj.user" Description="Project user file successfully backed up as G:\My WorkSpace\Source_Code (C#)\VS_GUIApplication\MDI_Example\Backup\MDI_Example\MDI_Example.csproj.user">
+</Event><Event ErrorLevel="0" Project="MDI_Example" Source="MDI_Example\Form1.cs" Description="File successfully backed up as G:\My WorkSpace\Source_Code (C#)\VS_GUIApplication\MDI_Example\Backup\MDI_Example\Form1.cs">
+</Event><Event ErrorLevel="0" Project="MDI_Example" Source="MDI_Example\Form1.Designer.cs" Description="File successfully backed up as G:\My WorkSpace\Source_Code (C#)\VS_GUIApplication\MDI_Example\Backup\MDI_Example\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="MDI_Example" Source="MDI_Example\Form2.cs" Description="File successfully backed up as G:\My WorkSpace\Source_Code (C#)\VS_GUIApplication\MDI_Example\Backup\MDI_Example\Form2.cs">
+</Event><Event ErrorLevel="0" Project="MDI_Example" Source="MDI_Example\Form2.Designer.cs" Description="File successfully backed up as G:\My WorkSpace\Source_Code (C#)\VS_GUIApplication\MDI_Example\Backup\MDI_Example\Form2.Designer.cs">
+</Event><Event ErrorLevel="0" Project="MDI_Example" Source="MDI_Example\Program.cs" Description="File successfully backed up as G:\My WorkSpace\Source_Code (C#)\VS_GUIApplication\MDI_Example\Backup\MDI_Example\Program.cs">
+</Event><Event ErrorLevel="0" Project="MDI_Example" Source="MDI_Example\Properties\AssemblyInfo.cs" Description="File successfully backed up as G:\My WorkSpace\Source_Code (C#)\VS_GUIApplication\MDI_Example\Backup\MDI_Example\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="MDI_Example" Source="MDI_Example\Properties\Resources.Designer.cs" Description="File successfully backed up as G:\My WorkSpace\Source_Code (C#)\VS_GUIApplication\MDI_Example\Backup\MDI_Example\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="MDI_Example" Source="MDI_Example\Properties\Settings.Designer.cs" Description="File successfully backed up as G:\My WorkSpace\Source_Code (C#)\VS_GUIApplication\MDI_Example\Backup\MDI_Example\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="MDI_Example" Source="MDI_Example\Properties\Settings.settings" Description="File successfully backed up as G:\My WorkSpace\Source_Code (C#)\VS_GUIApplication\MDI_Example\Backup\MDI_Example\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="MDI_Example" Source="MDI_Example\Form1.resx" Description="File successfully backed up as G:\My WorkSpace\Source_Code (C#)\VS_GUIApplication\MDI_Example\Backup\MDI_Example\Form1.resx">
+</Event><Event ErrorLevel="0" Project="MDI_Example" Source="MDI_Example\Properties\Resources.resx" Description="File successfully backed up as G:\My WorkSpace\Source_Code (C#)\VS_GUIApplication\MDI_Example\Backup\MDI_Example\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="MDI_Example" Source="MDI_Example\MDI_Example.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="MDI_Example" Source="MDI_Example\MDI_Example.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="MDI_Example.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="MDI_Example.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="MDI_Example" Source="MDI_Example\MDI_Example.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

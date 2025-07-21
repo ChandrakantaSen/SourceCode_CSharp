@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<p>
+    <b>Country List is populated @@ @DateTime.Now.ToString() </b>
+</p>
+
+@Html.Action("Countries", new { countryNames = new List<string>() { "US", "UK", "India", "UAE"} })

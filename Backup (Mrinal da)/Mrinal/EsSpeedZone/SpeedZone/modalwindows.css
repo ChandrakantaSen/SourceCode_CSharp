@@ -1,0 +1,36 @@
+﻿body 
+{
+position:relative ;    
+}
+
+modal
+{
+    width:500px;
+    min-height:300px;
+    background:#fff;
+    border-style:double;
+    border-color:Blue;
+    margin:10% 10% 0 10% ;
+    overflow:hidden;
+    visibility:visible;
+}
+
+modal-header
+{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 25px;
+    color: #FFFF99;
+    font-family: Times New Roman;
+    background-color: #800000;
+}
+
+modal-header h1
+{
+    margin:0;
+    font-size:22px;
+    float:left;
+    font-weight: bold;
+  
+}

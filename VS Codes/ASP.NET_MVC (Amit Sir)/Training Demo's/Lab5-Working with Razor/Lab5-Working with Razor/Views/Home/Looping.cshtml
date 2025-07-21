@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "Looping";
+}
+
+<h2>Looping</h2>
+
+<h3>While Loop</h3>
+@{
+    var i = 0; 
+    while (i < 5)
+    {
+        i += 1;
+        <p>Line @i</p>
+    }
+}
+
+<h3>For Loop</h3>
+@for (var j = 10; j < 15; j++)
+{
+    <p>Line @j</p>
+}
+
+<h3>Foreach Loop</h3>
+@foreach (var x in Request.ServerVariables)
+{
+    <li>@x</li>
+}
+

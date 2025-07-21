@@ -1,0 +1,32 @@
+﻿@model pROJECT1.Models.Add
+
+@{
+    
+    ViewBag.Title = "Summation";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    int Total=0;
+    var x = "";
+    if(IsPost)
+    { 
+    var num1 = Int32.Parse(Request["Text1"]);
+    var num2 = Int32.Parse(Request["Text2"]);
+    Total=Model.sum(num1, num2);
+    x="The Sum is=" +Total;
+    }
+}
+<html>
+<body>
+    <h2>Summation</h2>
+
+    <form action="" method="post">
+        <label>First Number</label>
+        <input type="text" name="text1" /><br />
+        <label>Secomd Number</label>
+        <input type="text" name="text2" /><br />
+        <input type="submit" value="Add" />
+    </form>
+   @x
+</body>
+</html>

@@ -1,0 +1,12 @@
+obj\Debug\Aplicatie.exe
+obj\Debug\Aplicatie.pdb
+bin\Debug\Aplicatie.exe
+bin\Debug\Aplicatie.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Aplicatie.Cautari.resources
+obj\Debug\Aplicatie.Colaboratori.resources
+obj\Debug\Aplicatie.Comenzi.resources
+obj\Debug\Aplicatie.Intrari.resources
+obj\Debug\Aplicatie.MainForm.resources
+obj\Debug\Aplicatie.Produse.resources
+obj\Debug\Aplicatie.csproj.GenerateResource.Cache

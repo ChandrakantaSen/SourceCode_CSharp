@@ -1,0 +1,126 @@
+HTML {
+	BACKGROUND: url(images/page_background.gif) #fff; COLOR: #000
+}
+BODY {
+PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 9px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #000; PADDING-TOP: 0px; FONT-FAMILY: "Times New Roman", Times, serif; TEXT-ALIGN: center; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px
+}
+#wrapper {
+	BACKGROUND: #eee; MARGIN: 0px auto; WIDTH: 790px; TEXT-ALIGN: left
+}
+#head {
+	BORDER-RIGHT: #444 1px solid; BORDER-LEFT: #444 1px solid; WIDTH: 790px; POSITION: relative; HEIGHT: 116px
+}
+H1#title {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 790px; PADDING-TOP: 0px; POSITION: absolute; HEIGHT: 25px; BACKGROUND-COLOR: #6699ff
+}
+H1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 1.4em; MARGIN: 0px 0px 5px; COLOR: #005f8c; PADDING-TOP: 5px; FONT-FAMILY: tahoma, geneva, "lucida sans unicode", "lucida grande",verdana, sans-serif; LETTER-SPACING: 0.1em; TEXT-ALIGN: center
+}
+H1 SPAN {
+	LINE-HEIGHT: 1.4em
+}
+H3 {
+	FONT-SIZE: 1.1em
+}
+H4#header {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 188px; COLOR: #005f8c; PADDING-TOP: 2px; FONT-FAMILY: tahoma, geneva, "lucida sans unicode", "lucida grande",verdana, sans-serif; HEIGHT: 20px; BACKGROUND-COLOR: #d8d8d8; TEXT-ALIGN: left
+}
+A {
+	COLOR: #0066ff; TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+.leftcontent {
+	DISPLAY: block; FLOAT: left; MARGIN: 1px 3px 5px; WIDTH: 182px; POSITION: absolute; HEIGHT: auto
+}
+.bodycontent {
+	CLEAR: both; BORDER-RIGHT: #444 1px solid; DISPLAY: block; BACKGROUND: #fff; FLOAT: left; BORDER-LEFT: #444 1px solid; WIDTH: 790px
+}
+.bodycontent LI {
+	LINE-HEIGHT: 1.5em
+}
+.leftmenu {
+	DISPLAY: block; FLOAT: left; MARGIN: 0px; WIDTH: 200px
+}
+ HTML .leftmenu {
+	WIDTH: 195px
+}
+.leftbox {
+	BORDER-RIGHT: #d8d8d8 1px solid; BORDER-TOP: #d8d8d8 1px solid; FONT-SIZE: 11px; MARGIN: 5px; BORDER-LEFT: #d8d8d8 1px solid; WIDTH: 188px; LINE-HEIGHT: 1.8em; BORDER-BOTTOM: #d8d8d8 1px solid; FONT-FAMILY: verdana, arial, sans-serif; HEIGHT: 62px; TEXT-ALIGN: left
+}
+.leftbox A {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.leftbox A:hover {
+	COLOR: #0066ff; TEXT-DECORATION: none
+}
+.newsbox {
+	BORDER-RIGHT: #d8d8d8 1px solid; BORDER-TOP: #d8d8d8 1px solid; FONT-SIZE: 11px; MARGIN: 5px; BORDER-LEFT: #d8d8d8 1px solid; WIDTH: 188px; LINE-HEIGHT: 1.8em; BORDER-BOTTOM: #d8d8d8 1px solid; FONT-FAMILY: verdana, arial, sans-serif; HEIGHT: 100px; TEXT-ALIGN: left
+}
+.newsbox A {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.newsbox A:hover {
+	COLOR: #0066ff; TEXT-DECORATION: none
+}
+.banner {
+	DISPLAY: block; FLOAT: right; MARGIN: 0px; WIDTH: 590px; HEIGHT: auto
+}
+.col3 {
+	BORDER-RIGHT: #444 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #444 1px dashed; DISPLAY: block; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #444 1px solid; WIDTH: 790px; PADDING-TOP: 0px; BORDER-BOTTOM: #444 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.col3 A IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; MARGIN-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.col4 {
+	DISPLAY: block; FLOAT: left; BACKGROUND-IMAGE: url(images/left-content-bg.jpg); MARGIN: 0px; WIDTH: 180px
+}
+.content {
+	PADDING-RIGHT: 2px; DISPLAY: block; PADDING-LEFT: 2px; FLOAT: right; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #d8d8d8 1px dashed; WIDTH: 584px; PADDING-TOP: 0px
+}
+.footernav {
+	BORDER-RIGHT: #444 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #444 1px dashed; DISPLAY: block; PADDING-LEFT: 0px; FONT-SIZE: 0.9em; FLOAT: left; PADDING-BOTTOM: 10px; MARGIN: 0px; BORDER-LEFT: #444 1px solid; WIDTH: 790px; COLOR: #444444; LINE-HEIGHT: 1.5em; PADDING-TOP: 10px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center
+}
+.footernav A {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; COLOR: #02104b; PADDING-TOP: 0px; TEXT-DECORATION: none
+}
+.footernav A:hover {
+	COLOR: #0066ff
+}
+ HTML .col4 {
+	WIDTH: 175px
+}
+ HTML .col8 {
+	WIDTH: 110px
+}
+#donate {
+	MARGIN: 0px auto
+}
+H1.clear {
+	CLEAR: both
+}
+P {
+	FONT-SIZE: 9px; MARGIN: 5px 10px; LINE-HEIGHT: 1.8em; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-ALIGN: justify
+}
+.bold {
+	FONT-WEIGHT: bold
+}
+DIV#leftcontent {
+	LEFT: 0px; MARGIN: auto; VERTICAL-ALIGN: top; WIDTH: 150px; POSITION: absolute; TOP: 153px; HEIGHT: auto; TEXT-ALIGN: left
+}
+.addressbox {
+	FONT-SIZE: 0.9em; MARGIN-BOTTOM: 5px; MARGIN-LEFT: 6px; WIDTH: 400px; LINE-HEIGHT: 1.5em; FONT-FAMILY: verdana, arial, sans-serif; HEIGHT: auto; TEXT-ALIGN: center
+}
+.siteinfo {
+	FONT-SIZE: 0.9em; BACKGROUND: #434343; WIDTH: 790px; COLOR: #ffffff; LINE-HEIGHT: 1.5em; FONT-FAMILY: verdana, arial, sans-serif; HEIGHT: 20px; TEXT-ALIGN: right
+}
+.siteinfo A {
+	COLOR: #ffcc00; TEXT-DECORATION: none
+}
+.siteinfo A:hover {
+	TEXT-DECORATION: underline
+}
+.formarea {
+	BORDER-RIGHT: #d6d6d6 1px dashed; BORDER-TOP: #d6d6d6 1px dashed; FONT-SIZE: 0.9em; MARGIN-BOTTOM: 5px; MARGIN-LEFT: 6px; BORDER-LEFT: #d6d6d6 1px dashed; WIDTH: 500px; LINE-HEIGHT: 1.5em; BORDER-BOTTOM: #d6d6d6 1px dashed; FONT-FAMILY: verdana, arial, sans-serif; HEIGHT: auto; TEXT-ALIGN: left
+}

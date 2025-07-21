@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\StudyWorkspace - I\\Source_Code (C#)\\VS-2015_Codes (Old backup)\\Projects - 2015\\MyGUI_Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{41B06648-8799-42B2-9DAA-7E3004DBEFA5}|MyGUI_Project\\MyGUI_Project.csproj|e:\\studyworkspace - i\\source_code (c#)\\vs-2015_codes (old backup)\\projects - 2015\\mygui_project\\mygui_project\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{41B06648-8799-42B2-9DAA-7E3004DBEFA5}|MyGUI_Project\\MyGUI_Project.csproj|solutionrelative:mygui_project\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41B06648-8799-42B2-9DAA-7E3004DBEFA5}|MyGUI_Project\\MyGUI_Project.csproj|e:\\studyworkspace - i\\source_code (c#)\\vs-2015_codes (old backup)\\projects - 2015\\mygui_project\\mygui_project\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{41B06648-8799-42B2-9DAA-7E3004DBEFA5}|MyGUI_Project\\MyGUI_Project.csproj|solutionrelative:mygui_project\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LogIn.cs [Design]",
+              "DocumentMoniker": "E:\\StudyWorkspace - I\\Source_Code (C#)\\VS-2015_Codes (Old backup)\\Projects - 2015\\MyGUI_Project\\MyGUI_Project\\LogIn.cs",
+              "RelativeDocumentMoniker": "MyGUI_Project\\LogIn.cs",
+              "ToolTip": "E:\\StudyWorkspace - I\\Source_Code (C#)\\VS-2015_Codes (Old backup)\\Projects - 2015\\MyGUI_Project\\MyGUI_Project\\LogIn.cs [Design]",
+              "RelativeToolTip": "MyGUI_Project\\LogIn.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T10:12:04.292Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.cs [Design]",
+              "DocumentMoniker": "E:\\StudyWorkspace - I\\Source_Code (C#)\\VS-2015_Codes (Old backup)\\Projects - 2015\\MyGUI_Project\\MyGUI_Project\\Home.cs",
+              "RelativeDocumentMoniker": "MyGUI_Project\\Home.cs",
+              "ToolTip": "E:\\StudyWorkspace - I\\Source_Code (C#)\\VS-2015_Codes (Old backup)\\Projects - 2015\\MyGUI_Project\\MyGUI_Project\\Home.cs [Design]",
+              "RelativeToolTip": "MyGUI_Project\\Home.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T10:11:45.83Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

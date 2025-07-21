@@ -1,0 +1,10 @@
+c:\users\chandra\documents\visual studio 2015\Projects\MyGUI_Project\MyGUI_Project\bin\Debug\MyGUI_Project.exe.config
+C:\Users\Chandra\documents\visual studio 2015\Projects\MyGUI_Project\MyGUI_Project\bin\Debug\MyGUI_Project.exe
+C:\Users\Chandra\documents\visual studio 2015\Projects\MyGUI_Project\MyGUI_Project\bin\Debug\MyGUI_Project.pdb
+C:\Users\Chandra\documents\visual studio 2015\Projects\MyGUI_Project\MyGUI_Project\obj\Debug\MyGUI_Project.csprojResolveAssemblyReference.cache
+C:\Users\Chandra\documents\visual studio 2015\Projects\MyGUI_Project\MyGUI_Project\obj\Debug\MyGUI_Project.Properties.Resources.resources
+C:\Users\Chandra\documents\visual studio 2015\Projects\MyGUI_Project\MyGUI_Project\obj\Debug\MyGUI_Project.csproj.GenerateResource.Cache
+C:\Users\Chandra\documents\visual studio 2015\Projects\MyGUI_Project\MyGUI_Project\obj\Debug\MyGUI_Project.exe
+C:\Users\Chandra\documents\visual studio 2015\Projects\MyGUI_Project\MyGUI_Project\obj\Debug\MyGUI_Project.pdb
+C:\Users\Chandra\documents\visual studio 2015\Projects\MyGUI_Project\MyGUI_Project\obj\Debug\MyGUI_Project.LogIn.resources
+C:\Users\Chandra\documents\visual studio 2015\Projects\MyGUI_Project\MyGUI_Project\obj\Debug\MyGUI_Project.Home.resources

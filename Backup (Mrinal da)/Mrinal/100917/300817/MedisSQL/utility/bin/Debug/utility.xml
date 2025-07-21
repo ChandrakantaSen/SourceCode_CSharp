@@ -1,0 +1,211 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+utility
+</name>
+</assembly>
+<members>
+<member name="T:utility.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:utility.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:utility.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:utility.medisdataDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:utility.medisdataDataSet.T_PtDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:utility.medisdataDataSet.T_PtDataSubDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:utility.medisdataDataSet.T_PtDataSub2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:utility.medisdataDataSet.T_PtDataTestDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:utility.medisdataDataSet.T_PtDataTestSubDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:utility.medisdataDataSet.T_PtDrugTestDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:utility.medisdataDataSet.T_PtDrugTestSubDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:utility.medisdataDataSet.T_PtDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:utility.medisdataDataSet.T_PtDataSubRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:utility.medisdataDataSet.T_PtDataSub2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:utility.medisdataDataSet.T_PtDataTestRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:utility.medisdataDataSet.T_PtDataTestSubRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:utility.medisdataDataSet.T_PtDrugTestRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:utility.medisdataDataSet.T_PtDrugTestSubRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:utility.medisdataDataSet.T_PtDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:utility.medisdataDataSet.T_PtDataSubRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:utility.medisdataDataSet.T_PtDataSub2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:utility.medisdataDataSet.T_PtDataTestRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:utility.medisdataDataSet.T_PtDataTestSubRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:utility.medisdataDataSet.T_PtDrugTestRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:utility.medisdataDataSet.T_PtDrugTestSubRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:utility.medisdataDataSetTableAdapters.T_PtDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:utility.medisdataDataSetTableAdapters.T_PtDataSubTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:utility.medisdataDataSetTableAdapters.T_PtDataSub2TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:utility.medisdataDataSetTableAdapters.T_PtDataTestTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:utility.medisdataDataSetTableAdapters.T_PtDataTestSubTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:utility.medisdataDataSetTableAdapters.T_PtDrugTestTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:utility.medisdataDataSetTableAdapters.T_PtDrugTestSubTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:utility.medisdataDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:utility.medisdataDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(utility.medisdataDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:utility.medisdataDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(utility.medisdataDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:utility.medisdataDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(utility.medisdataDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:utility.medisdataDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:utility.medisdataDataSetTableAdapters.TableAdapterManager.UpdateAll(utility.medisdataDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:utility.medisdataDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:utility.medisdataDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

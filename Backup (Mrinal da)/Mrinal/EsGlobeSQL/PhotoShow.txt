@@ -1,0 +1,28 @@
+  Dim strPhotoName As String
+
+  Dim x As Single
+  x = 1
+    strPhotoName = " "
+
+   [Photo] = Null
+
+  
+  Do While x <= 20
+    If FileExists("\\Server\enfotechpic\Image" & x & "\" & [RegNo] & ".jpg") Then
+        strPhotoName = "\\Server\enfotechpic\Image" & x & "\" & [RegNo] & ".jpg"
+        Exit Do
+    End If
+  x = x + 1
+  Loop
+
+  [Photo].Locked = False
+  [Photo].Enabled = True
+ 
+  
+  If strPhotoName <> " " And FileExists(strPhotoName) Then
+    [Photo].Class = "Bitmap.image"
+    [Photo].SourceDoc = strPhotoName
+    [Photo].Action = acOLEEmbedded
+  Else
+    [Photo] = Null
+  End If
